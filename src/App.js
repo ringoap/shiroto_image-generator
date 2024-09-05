@@ -1,5 +1,6 @@
 import { useState } from 'react';
 //* ここまで *//
+import './App.css';
 const fetchGeneratedImage = async (text) => {
   const response = await fetch('https://api.openai.com/v1/images/generations', {
     method: 'POST',
